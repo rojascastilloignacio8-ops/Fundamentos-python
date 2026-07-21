@@ -9,4 +9,8 @@ class Persona:
         return self.__edad
     def get_nombre(self):
         return self.__nombre
-    
+    def set_edad(self, nueva_edad):
+        self.__edad = nueva_edad
+    def set_nombre(self, nuevo_nombre):
+        self.__nombre = nuevo_nombre
+        
